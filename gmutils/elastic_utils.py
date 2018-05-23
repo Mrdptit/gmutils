@@ -243,7 +243,7 @@ def parse_doc_output(doc):
     return out
 
 
-def match_search(line, index=:"default", field="name"):
+def match_search(line, index="default", field="name"):
     body = {
         "query": {
             "match": {
